@@ -1,0 +1,17 @@
+{
+	"auto_upgrade_last_run": 1345328397,
+	"installed_packages":
+	[
+		"Camaleon",
+		"Package Control",
+		"Stylus",
+		"SublimeClang",
+		"Theme - Soda",
+		"Tomorrow Color Schemes"
+	],
+	"repository_channels":
+	[
+		"https://sublime.wbond.net/repositories.json",
+		"https://github.com/chriskempson/tomorrow-theme/tree/master/textmate"
+	]
+}

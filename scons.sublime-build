@@ -1,0 +1,13 @@
+{
+   "cmd": "scons",
+   "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+   "working_dir": "${project_path:${folder:${file_path}}}",
+   "path": "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin",
+   "variants":
+   [
+      {
+         "name": "Execute Tests",
+         "cmd": ["scons", "executeTests"]
+      }
+   ]
+}
